@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const const PORT = process.env.PORT || 3000;;
 
 // فایل‌های استاتیک (html, css, js) رو سرو کن
 app.use(express.static(__dirname));
